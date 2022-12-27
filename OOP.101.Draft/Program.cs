@@ -1,4 +1,5 @@
 ﻿using System;
+using OOP._101.Draft;
 using System.ComponentModel.DataAnnotations;
 
 internal class Program
@@ -28,22 +29,22 @@ internal class Program
     
     }
     // Benim bir araba galerim var. Galerimde arabalar var..
-    public class CarGallery // CarGallery isminde bir class tanımlanıyor.
-    {
-        public string Brand { get; set; } //marka
-        public string Model { get; set; } // model
-        public string MClass{ get; set; } // Sınıf
-        public int MPover { get; set; } // Motor gücü
-        public int MVolume { get; set; } // Motor Hacmi
-        public string MSerial { get; set; } // Motor seri no
-        public char GasType { get; set; } // Yakıt türü
-        public char GearType { get; set; } // Vites Türü
-        public string CaseType { get; set; } // Kasa tipi
-        public int ProducedYear { get; set; } // Üretildiği yıl
-        public string Colour { get; set; } //Renk bilgisi
-        public int Price = 100000; // Fiyatı / Default değer atadım.
+    //public class CarGallery // CarGallery isminde bir class tanımlanıyor.
+    //{
+    //    public string Brand { get; set; } //marka
+    //    public string Model { get; set; } // model
+    //    public string MClass{ get; set; } // Sınıf
+    //    public int MPover { get; set; } // Motor gücü
+    //    public int MVolume { get; set; } // Motor Hacmi
+    //    public string MSerial { get; set; } // Motor seri no
+    //    public char GasType { get; set; } // Yakıt türü
+    //    public char GearType { get; set; } // Vites Türü
+    //    public string CaseType { get; set; } // Kasa tipi
+    //    public int ProducedYear { get; set; } // Üretildiği yıl
+    //    public string Colour { get; set; } //Renk bilgisi
+    //    public int Price = 100000; // Fiyatı / Default değer atadım.
 
-    }
+    //}
     //Bir sınıf öğrenci adı, soyadı, cinsiyeti, yaşı,sınıfı. Ekrana öğrencinin özellikleri yazdır.
     public class Ogrenciler
     {
