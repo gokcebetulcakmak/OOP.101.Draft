@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant_Menu
 {
+    //Restoranın menüsünü tarif eden class
     internal class Menu
     {
         public Menu() //Yapıcı method (constructor)
@@ -16,7 +17,7 @@ namespace Restaurant_Menu
         public string MenuName { get; set; }
         public string FoodName { get; set; }
         public int FoodPrice { get; set; }
-        public int CategoryID { get; set; }
+        public int CategoryID { get; set; } //Ürün hangi kategoriye ait
 
     }
 }

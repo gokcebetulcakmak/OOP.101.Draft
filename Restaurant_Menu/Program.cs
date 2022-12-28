@@ -5,9 +5,10 @@ internal class Program
     private static void Main(string[] args)
     {
         //Kategori
-        Category category = new Category(); 
+        Category category = new Category(); //sınıf yapısından bir nesne üretiyorum.
         category.CategoryID = 1;
         category.CategoryName = "Çorbalar";
+
         Console.WriteLine("Kategori Listesi");
         Console.WriteLine("===============\n\n");
         Console.WriteLine(category.CategoryID + ":" + "\t" + category.CategoryName);
@@ -26,10 +27,12 @@ internal class Program
         //Raw
         Raw raw = new Raw();
         raw.RawID = 1;
-        raw.RawName = "Mercimek, un , soğan";
-        Console.WriteLine("İçerik : " + raw.RawName );
+        raw.RawName = "Mercimek";
+        raw.RawAmount = 5; //bir kazan çorba için gerekli malzeme
        
-
+        Console.WriteLine( " Hammadde Listesi");
+        Console.WriteLine("===============\n");
+        Console.WriteLine(raw.RawID + ":" + "\t" + raw.RawName + ": \t" + raw.RawAmount);
 
         Console.ReadKey();
     }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant_Menu
 {
+    //Hammadde bilgilerini tutan class
     internal class Raw
     {
         public int RawID { get; set; }
